@@ -1,16 +1,17 @@
 
 
-import Movie from "./Movie"
-import Cls1 from "./Cls1"
+//import Movie from "./Movie"
+//import Cls1 from "./Cls1"
+import Car from "./Car"
  let App=()=>{
     
 return <>
 <p>
-<Movie/>
+    <Car />
 </p>
 <hr></hr>
 <p>
-    <Cls1/>
+    
 
 </p>
 

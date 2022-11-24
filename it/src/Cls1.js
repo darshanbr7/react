@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 class Cls1 extends React.Component{
     name="darsan"
     ph_no=566722
@@ -7,6 +7,11 @@ class Cls1 extends React.Component{
         <p> {this.name}</p>
         <p> {this.ph_no}</p>
         </div>
+    }
+    render(){
+        return <>
+        <p>car color is {} </p>
+        </>
     }
 
 }
