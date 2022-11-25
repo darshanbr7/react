@@ -1,6 +1,6 @@
 import React from "react";
 import CompB from "./CompB";
-class CompA extends React.Component{
+class CompoA extends React.Component{
     eid="101"
     name="darshan"
 render(){
@@ -11,4 +11,4 @@ render(){
     </>
 }
 }
-export default CompA
+export default CompoA

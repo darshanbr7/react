@@ -1,5 +1,5 @@
 import React from "react";
-class CompB extends React.Component{
+class CompoB extends React.Component{
     
      render(){
         return <>
@@ -12,4 +12,4 @@ class CompB extends React.Component{
      }
 
 }
-export default CompB
+export default CompoB
