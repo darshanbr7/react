@@ -9,7 +9,8 @@
 //import CompA from "./c_f/CompA"
 // import  Data1 from "./f-c/Data1"
 //import Data1 from "./func-class/Data1"
-import State1 from "./state/State1"
+//import State1 from "./state/State1"
+import Bootstrap from "./Bootstrap"
  let App=()=>{
     
    return <>
@@ -17,7 +18,7 @@ import State1 from "./state/State1"
   <h1>App component </h1>
    </p>
    <hr />
-   <State1 />
+   <Bootstrap />
      </>
 
  }
