@@ -4,7 +4,7 @@ let Bootstarp=()=>{
     <nav className="navbar navbar-expand-bg-lg bg-dark">
         <div className="navbar-brand">
             <ol className="navbar-nav">
-                <li> one</li>
+                <li> one </li>
 
             </ol>
         </div>
