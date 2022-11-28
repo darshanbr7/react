@@ -11,15 +11,16 @@
 //import Data1 from "./func-class/Data1"
 //import State1 from "./state/State1"
 //import Bootstrap from "./Bootstrap"
-import Product from "./product/Product"
+import Flip from "./product/Flip"
+
  let App=()=>{
     
    return <>
    <p>
   <h1>App component </h1>
    </p>
-   <hr />
-   <Product />
+   <hr / >
+   <Flip />
      </>
 
  }
