@@ -13,7 +13,9 @@
 //import Bootstrap from "./Bootstrap"
 //import Flip from "./product/Flip"
 //import Message from "./bind/Message"
-import Table from "./table/Table"
+//import Table from "./table/Table"
+//import Form  from "./form/form"
+import Table1 from "./table/table1"
 
  let App=()=>{
     
@@ -22,7 +24,7 @@ import Table from "./table/Table"
   <h1>App component </h1>
    </p>
    <hr / >
-   <Table />
+   <Table1 />
      </>
 
  }
