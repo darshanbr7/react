@@ -14,17 +14,15 @@
 //import Flip from "./product/Flip"
 //import Message from "./bind/Message"
 //import Table from "./table/Table"
-//import Form  from "./form/form"
-import Table1 from "./table/table1"
-
- let App=()=>{
+import Form1  from "./form/Form1"
+let App=()=>{
     
    return <>
    <p>
   <h1>App component </h1>
    </p>
    <hr / >
-   <Table1 />
+   <Form1  />
      </>
 
  }
