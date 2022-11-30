@@ -1,0 +1,22 @@
+let Data=[{"id":1,"name":"Hewie","email":"hgillham0@businessweek.com","gender":"Male"},
+{"id":2,"name":"Ulrich","email":"udorber1@netlog.com","gender":"Male"},
+{"id":3,"name":"Dell","email":"dfourcade2@webmd.com","gender":"Female"},
+{"id":4,"name":"Moore","email":"msawle3@amazon.co.uk","gender":"Male"},
+{"id":5,"name":"Darn","email":"dkimm4@sina.com.cn","gender":"Male"},
+{"id":6,"name":"Marabel","email":"mzanolli5@surveymonkey.com","gender":"Female"},
+{"id":7,"name":"Shirl","email":"sbollom6@ucoz.ru","gender":"Female"},
+{"id":8,"name":"Rosemonde","email":"rfransinelli7@sina.com.cn","gender":"Female"},
+{"id":9,"name":"Else","email":"egallally8@wikia.com","gender":"Female"},
+{"id":10,"name":"Stormi","email":"srigmand9@hexun.com","gender":"Female"},
+{"id":11,"name":"Menard","email":"medesona@chicagotribune.com","gender":"Polygender"},
+{"id":12,"name":"Lothario","email":"lasplenb@ft.com","gender":"Genderfluid"},
+{"id":13,"name":"Anselm","email":"abonasc@gizmodo.com","gender":"Male"},
+{"id":14,"name":"Terza","email":"teydeld@youtu.be","gender":"Female"},
+{"id":15,"name":"Lin","email":"lquennelle@rediff.com","gender":"Female"},
+{"id":16,"name":"Dorene","email":"dciottoif@usa.gov","gender":"Female"},
+{"id":17,"name":"Katharina","email":"kgalileeg@howstuffworks.com","gender":"Female"},
+{"id":18,"name":"Constancy","email":"cbraffingtonh@webnode.com","gender":"Female"},
+{"id":19,"name":"Erastus","email":"eallsworthi@soundcloud.com","gender":"Male"},
+{"id":20,"name":"Norry","email":"ncesconij@samsung.com","gender":"Male"}]
+
+export default Data

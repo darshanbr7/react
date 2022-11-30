@@ -12,7 +12,8 @@
 //import State1 from "./state/State1"
 //import Bootstrap from "./Bootstrap"
 //import Flip from "./product/Flip"
-import Message from "./bind/Message"
+//import Message from "./bind/Message"
+import Table from "./table/Table"
 
  let App=()=>{
     
@@ -21,7 +22,7 @@ import Message from "./bind/Message"
   <h1>App component </h1>
    </p>
    <hr / >
-   <Message />
+   <Table />
      </>
 
  }
