@@ -14,7 +14,7 @@
 //import Flip from "./product/Flip"
 //import Message from "./bind/Message"
 //import Table from "./table/Table"
-import Form1  from "./form/Form1"
+import Form2  from "./form/Form2"
 let App=()=>{
     
    return <>
@@ -22,7 +22,7 @@ let App=()=>{
   <h1>App component </h1>
    </p>
    <hr / >
-   <Form1  />
+   <Form2  />
      </>
 
  }
