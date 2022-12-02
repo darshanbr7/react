@@ -5,7 +5,8 @@ import React, { Component } from 'react'
         username:" ",
         email:" ",
         dob:" ",
-        password:""
+        password:"",
+        gender:""
     }
     updateHandler1=(event)=>{
         this.setState({[event.target.name]:event.target.value})
@@ -42,6 +43,10 @@ import React, { Component } from 'react'
                     <div className="form-group">
                         <label htmlFor=""> password</label>
                         <input type="text" value={this.state.password} name="password" className='form-control' onChange={this.updateHandler1} />
+                    </div>
+                    <div className="form-group">
+                        <label> gender</label>
+                        <input type="checkbox" name="gender"className='form-control'   value={this.state.gender}/> male
                     </div>
                     <input type="submit" value="Registration" className='btn btn-info' />
 
