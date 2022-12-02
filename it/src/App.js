@@ -14,7 +14,7 @@
 //import Flip from "./product/Flip"
 //import Message from "./bind/Message"
 //import Table from "./table/Table"
-import Form2  from "./form/Form2"
+import Regboot  from "./form/Reg-boot"
 let App=()=>{
     
    return <>
@@ -22,7 +22,7 @@ let App=()=>{
   <h1>App component </h1>
    </p>
    <hr / >
-   <Form2  />
+   <Regboot  />
      </>
 
  }
