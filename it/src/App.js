@@ -15,6 +15,7 @@
 //import Message from "./bind/Message"
 //import Table from "./table/Table"
 import Regboot  from "./form/Reg-boot"
+import AxiosFetch from "./Axios/AxiosFetch"
 let App=()=>{
     
    return <>
@@ -22,7 +23,7 @@ let App=()=>{
   <h1>App component </h1>
    </p>
    <hr / >
-   <Regboot  />
+   <AxiosFetch />
      </>
 
  }
