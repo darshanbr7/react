@@ -16,6 +16,7 @@
 //import Table from "./table/Table"
 import Regboot  from "./form/Reg-boot"
 import AxiosFetch from "./Axios/AxiosFetch"
+import Contact_app from "./Contact_app/Contact_details"
 let App=()=>{
     
    return <>
@@ -23,7 +24,7 @@ let App=()=>{
   <h1>App component </h1>
    </p>
    <hr / >
-   <AxiosFetch />
+   <Contact_app />
      </>
 
  }
