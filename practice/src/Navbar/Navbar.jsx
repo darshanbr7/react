@@ -2,14 +2,9 @@ import React from "react";
 class Navbar extends React.Component{
 render (){
     return (<>
-    <nav className=" navbar  navbar-dark bg-dark">
-        <p> Navbar</p>
-    <div className="ml-auto">
-        <ul className="navbar-nav text-white">
-           <li className="navbar-item text-white"> <a href="./" className="">Home</a></li>
-        </ul>
-        
-    </div>
+    <nav className=" navbar  navbar-expand-lg navbar-dark bg-dark">
+       <h3 className="navbar-brand">Navbar</h3>
+    
     </nav>
     </>)
 }

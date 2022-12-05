@@ -3,7 +3,7 @@ import React from 'react'
 //import EventBinding from "./component/EventBinding"
 //import Parent from './component/Parent'
 //import Axios1 from './Axios/Axios1'
-//import Navbar from './Navbar/Navbar'
+import Navbar from './Navbar/Navbar'
 import ContactHome from './ContactApp/ContactHome'
 
  const App = () => {
@@ -11,6 +11,7 @@ import ContactHome from './ContactApp/ContactHome'
     <>
     <h1> hello React </h1>
     <hr />
+    <Navbar />
     <ContactHome/>
     </>
   )

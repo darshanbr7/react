@@ -14,18 +14,38 @@
 //import Flip from "./product/Flip"
 //import Message from "./bind/Message"
 //import Table from "./table/Table"
-import Regboot  from "./form/Reg-boot"
-import AxiosFetch from "./Axios/AxiosFetch"
-import Contact_app from "./Contact_app/Contact_details"
+//import Regboot  from "./form/Reg-boot"
+//import AxiosFetch from "./Axios/AxiosFetch"
+//import Contact_app from "./Contact_app/Contact_details"
+//import Navbar1 from "./Navbar/Navbar1"
+import Home from "./Navbar/Home"
+import About from "./Navbar/About"
+import Service from "./Navbar/Service"
+import {  BrowserRouter as Router,Routes,Link,Route} from "react-router-dom"
 let App=()=>{
     
-   return <>
-   <p>
-  <h1>App component </h1>
-   </p>
-   <hr / >
-   <Contact_app />
-     </>
-
- }
+   return (  <>
+   <Router>
+           <div className="App">
+            <ul className="App-header">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact Us</Link>
+              </li>
+            </ul>
+           <Routes>
+                 <Route exact path='/' element={< Home />}></Route>
+                 <Route exact path='/about' element={< About />}></Route>
+                 <Route exact path='/Service' element={< Service />}></Route>
+          </Routes>
+          </div>
+       </Router>
+       </>)
+}
+   
  export default App
