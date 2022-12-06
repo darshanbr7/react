@@ -19,23 +19,20 @@ render(){
 }
 export default Navbar1  */
 import React from "react";
-import {Link, Router } from "react-router-dom"
+import {Link} from "react-router-dom"
 class Navbar1 extends React.Component{
     render(){
         return (<>
-        <nav className="navbar navbar-expand-lg bg-dark">
-            <Link  class name="navbar-brand" to="/"> Navbar </Link>
-            <div className="ml-auto">
-                <ul className="navbar-nav">
-                    <Router>
-                    <Link to="/home" className="nav-link"> Home</Link>
-             <Link to="/home" className="nav-link"> About</Link>
-                     <Link to="/Service" className="nav-link"> Service</Link>
-                    </Router>
-                </ul>
-            </div>
-
-        </nav>
+    <nav className="navbar navbar-expand-lg bg-dark">
+        <div className="navbar-brand"> Navbar</div>
+        <div className="ml-auto">
+        <ul className="navbar-nav text-white">
+                <li className="nav-link"><Link to="./home" className="nav-item"> Home</Link></li>
+                <li className="nav-link"><Link to="./about" className="nav-item"> About</Link></li>
+                <li className="nav-link"><Link to="./service" className="nav-item"> Service</Link></li>
+        </ul>
+        </div>
+         </nav>
         </>)
     }
 

@@ -21,30 +21,20 @@
 import Home from "./Navbar/Home"
 import About from "./Navbar/About"
 import Service from "./Navbar/Service"
-import {  BrowserRouter as Router,Routes,Link,Route} from "react-router-dom"
+import Navbar1 from "./Navbar/Navbar1"
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom"
 let App=()=>{
     
    return (  <>
-   <Router>
-           <div className="App">
-            <ul className="App-header">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact Us</Link>
-              </li>
-            </ul>
-           <Routes>
-                 <Route exact path='/' element={< Home />}></Route>
-                 <Route exact path='/about' element={< About />}></Route>
-                 <Route exact path='/Service' element={< Service />}></Route>
+
+        <Router>
+          < Navbar1 />
+          <Routes>
+            <Route path="/home"  element={<Home  />}   /> 
+            <Route path="/about"  element={<About />}   /> 
+            <Route path="/service"  element={<Service />}   /> 
           </Routes>
-          </div>
-       </Router>
+        </Router>
        </>)
 }
    
