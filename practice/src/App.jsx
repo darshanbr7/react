@@ -1,25 +1,37 @@
-import React from 'react'
-//import SetState from './component/setState'
-//import EventBinding from "./component/EventBinding"
-//import Parent from './component/Parent'
-//import Axios1 from './Axios/Axios1'
+// import React from 'react';
+// import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+// import Navbar from './Navbar/Navbar'
+// import Home from "./Navbar/Home"
+
+// const App = () => {
+//   return (
+//     <>
+//     <Router>
+//       <Navbar />
+//       <Routes>
+//         <Route path='/home'  element={<Home />}  />
+//       </Routes>
+//     </Router>
+//     </>
+//   )
+// }
+
+// export default App
+import React, { Component } from 'react'
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Navbar from './Navbar/Navbar'
-//import ContactHome from './ContactApp/ContactHome'
-// import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
-import Home from './Navbar/Home'
- const App = () => {
-  return (
-    <>
-    
-    {/* <Router> */}
-      {/* <Navbar /> */}
-      {/* <Routes> */}
-        {/* <Route  path='/home'  element={<Home />}/> */}
-      {/* </Routes> */}
-    {/* </Router> */}
-    
-    </>
- 
-  )
+import Home from "./Navbar/Home"
+ class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/home'  element={<Home />} />
+        </Routes>
+      </Router>
+    )
+  }
 }
+
 export default App

@@ -7,7 +7,7 @@ render (){
     <div className="navbar-brand">Navbar</div>
     <div className="ml-auto" >
         <ul className="navbar-nav">
-            <li className="nav-list"> <Link to="./home">  Home</Link></li>
+            <li className="nav-list"> <Link className="nav-link" to="./home">Home</Link></li>
 
         </ul>
     </div>
