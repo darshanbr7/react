@@ -30,6 +30,8 @@ class Navbar1 extends React.Component{
                 <li className="nav-link"><Link to="./home" className="nav-item"> Home</Link></li>
                 <li className="nav-link"><Link to="./about" className="nav-item"> About</Link></li>
                 <li className="nav-link"><Link to="./service" className="nav-item"> Service</Link></li>
+                <li className="nav-link"><Link to="./Clock" className="nav-item"> Clock</Link></li>
+                <li className="nav-link"><Link to="./login" className="nav-item"> Login</Link></li>
         </ul>
         </div>
          </nav>
