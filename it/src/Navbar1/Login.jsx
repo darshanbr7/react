@@ -1,11 +1,24 @@
 import React from 'react'
+import { useState } from 'react'
 import { useRef } from 'react'
 
 const Login = () => {
-    useRef()
-
+     let buttonTag= useRef(null)
+     let[terms,stTerms] =useState(false)
+   let  accptHandler=(event)=>{
+    stTerms(event.target.checked)
+      
+    if(event.target.checked=== true){
+    buttonTag.current.disabled=false
+    } else
+    {
+        buttonTag.current.disabled=true
+    }
+ }
   return (<>
-
+<pre>
+    {JSON.stringify(terms)}
+</pre>
   <div className="container">
     <div className="row">
         <div className="col-3"></div>
@@ -23,9 +36,9 @@ const Login = () => {
                     </div>
                     <br/>
                     <div className='from-check'>
-                        <input type="checkbox" className='form-chech-input' /> Plece accept terms and condition
+                        <input type="checkbox" onClick={accptHandler} className='form-chech-input' /> Plece accept terms and condition
                     </div><br />
-                    <input type="button" value="submit" className='btn btn-success' disabled />
+                    <input type="button" ref={buttonTag} value="submit" className='btn btn-success' disabled />
                 </div>
             </div>
         </div>
