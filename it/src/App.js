@@ -43,24 +43,57 @@
 // }
    
 //  export default App
- import React from "react";
- import Navbar from "./Navbar1/Navbar"
- import Home from "./Navbar1/Home"
- import Login from "./Navbar1/Login";
- import {BrowserRouter as  Router ,Routes,Route} from "react-router-dom"
- let App= ()=>{
-  return (<>
-    <h1> App component</h1>
-    <hr />
-    <Router>
-    <Navbar />
-    <Routes>
-     <Route  path="/Home" element={<Home />} />
-     <Route  path="/Login" element={<Login />} />
-    </Routes>
-    </Router>
+//  import React from "react";
+//  import Navbar from "./Navbar1/Navbar"
+//  import Home from "./Navbar1/Home"
+//  import Login from "./Navbar1/Login";
+//  import {BrowserRouter as  Router ,Routes,Route} from "react-router-dom"
+//  let App= ()=>{
+//   return (<>
+//     <h1> App component</h1>
+//     <hr />
+//     <Router>
+//     <Navbar />
+//     <Routes>
+//      <Route  path="/Home" element={<Home />} />
+//      <Route  path="/Login" element={<Login />} />
+//     </Routes>
+//     </Router>
     
-  </>)
+//   </>)
 
- }
- export default App
+//  }
+//  export default App
+import React from 'react'
+import Message from './redux/message/Message'
+import {Provider} from "react-redux"
+import {store} from "./redux/store"
+
+const App = () => {
+  return (
+    <div>
+      <Provider store={store}>
+      < Message />
+      </Provider>
+    </div>
+  )
+}
+
+export default App
+// import React from 'react'
+// import { Main} from "./redux-Practice/Main"
+// import { Provider } from 'react-redux'
+// import { Store } from './redux-Practice/store'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Provider store={Store} >
+//       <Main />
+//       </Provider>
+     
+//     </div>
+//   )
+// }
+
+// export default App
