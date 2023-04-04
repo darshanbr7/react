@@ -1,10 +1,15 @@
 import React from "react";
-import F1 from "./prps/F1";
+//import ArrayDisplay from "./practice/ArrayDisplay";
+//import UserList from "./practice/UserList";
 
+import Set from "./practice/Set"
 let App=()=>{
-
-    return(<>
-   <F1 />
-    </>)
+    
+    
+    return(
+        <>
+      <Set/>
+     
+        </>)
 }
 export default App;
