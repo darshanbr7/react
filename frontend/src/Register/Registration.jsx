@@ -9,7 +9,7 @@ const Registration = () => {
         async function save( e){
           e.preventDefault();
           try{
-            await Axios.post("http://localhost:8080/register/save",
+            await Axios.post("http://localhost:8080/Employee/register",
             {
                 userName:userName,
                 email:email,
