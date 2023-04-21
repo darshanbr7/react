@@ -1,29 +1,25 @@
-import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
-const Navbar1 = () => {
+
+
+function Navbar1() {
   return (
-    <div>
-       { /*<Navbar bg="" variant="dark" id='navbar'>
-        <Container >
-          <Navbar.Brand href="#home" className='logo'><h2><span>E-</span><span>C</span>ommerce</h2></Navbar.Brand>
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/Registration">Register</Nav.Link>
-            
-          </Nav>
-        </Container>
-      </Navbar> */}
-
-     <nav>
-
-        <Nav classne>
-
-        </Nav>
-     </nav>
-      
-    </div> 
-
-  )
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">Simple Registration</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto"> 
+            <Nav.Link    > <Link to="/login">Login</Link></Nav.Link>
+           </Nav>
+          
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar1
+export default Navbar1;

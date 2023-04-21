@@ -1,5 +1,6 @@
 import React from 'react'
 import Axios from "axios"
+import { Link } from 'react-router-dom'
 
 const Registration = () => {
         const[userName,setUserName] =React.useState("")
@@ -41,15 +42,15 @@ const Registration = () => {
                 <div className="col-md-4"></div>
                 <div className="col-md-4">
                 <div className="form-group">
-                <label > UserName :</label>
+                <label > USERNAME :</label>
                 <input type="text" id=""  className='form-control' value={userName} onChange={(e)=>{setUserName(e.target.value)}}/>
                 </div>
                 <div className="form-group">
-                <label > Email :</label>
+                <label > EMAIL :</label>
                 <input type="text" id=""  className='form-control' value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
                 </div>
                 <div className="form-group">
-                <label > Password :</label>
+                <label > PASSWORD :</label>
                 <input type="text" id=""  className='form-control' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
                 </div>
                 <div className="row">
@@ -61,6 +62,9 @@ const Registration = () => {
 
             </div>
             </div>
+            <center>
+            <p>Already have an Account ?  Login <Link to="/Login">Here</Link></p>
+            </center>
             </form>
         </div>
     </div>
